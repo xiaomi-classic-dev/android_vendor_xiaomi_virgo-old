@@ -246,4 +246,5 @@ PRODUCT_COPY_FILES += \
 
 # Sound
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/virgo/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so
+    vendor/xiaomi/virgo/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
+    vendor/xiaomi/virgo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so
