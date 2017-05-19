@@ -198,6 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/xiaomi/virgo/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/xiaomi/virgo/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/xiaomi/virgo/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/xiaomi/virgo/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
