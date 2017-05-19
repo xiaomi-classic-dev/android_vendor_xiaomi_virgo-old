@@ -240,10 +240,11 @@ PRODUCT_COPY_FILES += \
 
 # Sensor
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/virgo/proprietary/bin/sensorextd:system/bin/sensorextd
-
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/virgo/proprietary/lib/hw/sensors.st_mve.so:system/lib/hw/sensors.st_mve.so
+    vendor/xiaomi/virgo/proprietary/bin/set_sensorprop.sh:system/bin/set_sensorprop.sh \
+    vendor/xiaomi/virgo/proprietary/lib/hw/sensors.leo.so:system/lib/hw/sensors.leo.so \
+    vendor/xiaomi/virgo/proprietary/lib/libinputflinger.so:system/lib/libinputflinger.so \
+    vendor/xiaomi/virgo/proprietary/lib/libpowermanager.so:system/lib/libpowermanager.so \
+    vendor/xiaomi/virgo/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so
 
 # Sound
 PRODUCT_COPY_FILES += \
