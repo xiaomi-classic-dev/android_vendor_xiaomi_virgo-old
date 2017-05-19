@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += $(foreach file, $(libactuator_files), \
         $(file):system/vendor/lib/$(shell basename $(file)))
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/virgo/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/xiaomi/virgo/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/xiaomi/virgo/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/xiaomi/virgo/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
@@ -173,6 +174,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/virgo/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+    vendor/xiaomi/virgo/proprietary/etc/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf \
+    vendor/xiaomi/virgo/proprietary/etc/thermal-engine-perf.conf:system/etc/thermal-engine-perf.conf \
     vendor/xiaomi/virgo/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/xiaomi/virgo/proprietary/bin/charger_monitor:system/bin/charger_monitor \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
@@ -200,6 +203,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/xiaomi/virgo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/xiaomi/virgo/proprietary/lib/librpmb.so:system/lib/librpmb.so \
+    vendor/xiaomi/virgo/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
+    vendor/xiaomi/virgo/proprietary/lib/libthermalioctl.so:system/lib/libthermalioctl.so \
     vendor/xiaomi/virgo/proprietary/lib/libssd.so:system/lib/libssd.so \
     vendor/xiaomi/virgo/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
