@@ -207,6 +207,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/xiaomi/virgo/proprietary/lib/libthermalioctl.so:system/lib/libthermalioctl.so \
     vendor/xiaomi/virgo/proprietary/lib/libssd.so:system/lib/libssd.so \
+    vendor/xiaomi/virgo/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/xiaomi/virgo/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
