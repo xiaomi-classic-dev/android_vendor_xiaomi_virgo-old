@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/virgo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/virgo/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/xiaomi/virgo/proprietary/bin/sensorextd:system/bin/sensorextd \
     vendor/xiaomi/virgo/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/virgo/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
     vendor/xiaomi/virgo/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
@@ -75,7 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/virgo/proprietary/lib/hw/activity_recognition.msm8974.so:system/lib/hw/activity_recognition.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libsensors.st_mve.so:system/vendor/lib/libsensors.st_mve.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/libsensors.leo.so:system/vendor/lib/libsensors.leo.so \
     vendor/xiaomi/virgo/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/xiaomi/virgo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/virgo/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -88,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/libchromatix_s5k3m2_liveshot.so:system/lib/libchromatix_s5k3m2_liveshot.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/virgo/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
+    vendor/xiaomi/virgo/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/xiaomi/virgo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/virgo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/virgo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
